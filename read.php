@@ -108,7 +108,7 @@ if(isset($_GET["id"]) && !empty(trim($_GET["id"]))){
                         <label>Email</label>
                         <p><b><?php echo $row["email"]; ?></b></p>
                     </div>
-                    <p><a href="index.php" class="btn btn-primary">Back</a></p>
+                    <p><a href="dashboard.php" class="btn btn-primary">Back</a></p>
                 </div>
             </div>        
         </div>
